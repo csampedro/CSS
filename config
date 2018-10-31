@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/CarlosSampedro/CSS
+[remote "upstream"]
+	url = git@github.com:CarlosSampedro/CSS.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
